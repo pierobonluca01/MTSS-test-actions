@@ -17,6 +17,7 @@ public class AppTest
      */
     @Test
     public void testLmao() {
-        assertEquals(4, App.lmao());
+        App app = new App();
+        assertEquals(4, app.lmao());
     }
 }

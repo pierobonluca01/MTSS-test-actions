@@ -6,7 +6,8 @@ package com.mycompany.app;
  */
 public class App 
 {
-    public static int lmao() {
+    public App() {}
+    public int lmao() {
         return 4;
     }
 }
